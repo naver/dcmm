@@ -1,0 +1,10 @@
+{
+  "data": {
+    "train": "../mediaeval/pyg_dataset/train/train/",
+    "val": "../mediaeval/pyg_dataset/train/val",
+    "test": "../mediaeval/pyg_dataset//test/",
+    "train_img_dir": "../mediaeval/DeepFeatures/train/",
+    "test_img_dir": "../mediaeval/DeepFeatures/test/",
+    "img_featname": "inception_resnet"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "params": {
+    "model": "DCMM-edge",
+    "in_dim": 4,
+    "input_channels": 8,
+    "conv_channels": 8,
+    "nb_layers": 1,
+    "batch_size": 4,
+    "lr": 1e-4,
+    "l2_norm": 0.0,
+    "dropout": 0,
+    "nb_epochs": 20,
+    "loss": "BPRLoss",
+    "checkpoint_dir": "dev_ckpt/",
+    "monitoring_metric": "ndcg",
+    "top_k": 10,
+    "visual_dim": 1536
+  }
+}
